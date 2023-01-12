@@ -8,94 +8,169 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <section>
-        <div>
-            <h1>Curriculum Vitae</h1>
-            <h2>Informacion general</h2>
-            <h3>John Edwin Ramirez ORozco</h3>
-            <h3>jero_49@outlook.com</h3>
-            <h3>+57 313 706 3105</h3>
-            <h3>Santiado de Cali, Colombia</h3>
-            <a href="https://github.com/JeroDev1">Git-Hut</a><br>
-            <a href="https://www.linkedin.com/in/jerodev/">linkedin</a>
-        </div>
-    </section>
-    <section>
-    <h2>Experiencia laboral</h2>
-        <div>
-            <ul>
-                <li>
-                    <h2>WebMaster</h2>
-                    <p>Tecnoplaza Colombia S.A.S.</p>
-                    <p>Inicio 04/02/2022 - Actualmente</p>
+    <div class="main">
+        <div class="Izquierdo">
+            <img id="perfil" src="/Imagenes/Foto personal.png" alt="Foto personal">
+            <h2>CONTACTO</h2>
+            <div class="TodosDatos">
+                <div class="DatosContacto">
+                    <img class="Logo" src="/Imagenes/correo.png" alt="logo correo">
+                    <p>Jero_49@outlook.com</p>
+                </div>
+                <div class="DatosContacto">
+                    <img class="Logo" src="/Imagenes/llamada.png" alt="logo llamada">
+                    <p>+57 313 706 3105</p>
+                </div>
+                <div class="DatosContacto">
+                    <img class="Logo" src="/Imagenes/ubicacion.png" alt="logo ubicacion">
+                    <p>Calle 3 # 72-11 Cali, Colombia</p>
+                </div>
+                <div class="DatosContacto">
+                    <img class="Logo" src="/Imagenes/linkeding.png" alt="logo linkeding">
+                    <p>www.linkedin.com/in/jerodev</p>
+                </div>
+            </div>
+            <h2>HABILIDADES</h2>
+            <div class="TodosDatos">
+                <div class="WebDesing">
+                    <p>Front End</p>
+                    <img src="/Imagenes/logro1.png" alt="logro1">
+                </div>
+                <div class="WebDesing">
+                    <p>Adobe Photoshop</p>
+                    <img src="/Imagenes/logro2.png" alt="logro2">
+                </div>
+                <div class="WebDesing">
+                    <p>Html y Css</p>
+                    <img src="/Imagenes/logro3.png" alt="logro3">
+                </div>
+                <div class="WebDesing">
+                    <p>JavaScript</p>
+                    <img src="/Imagenes/logro4.png" alt="logro4">
+                </div>
+                <div class="WebDesing">
+                    <p>React</p>
+                    <img src="/Imagenes/logro5.png" alt="logro5">
+                </div>
+            </div>
+            <h2>Hobbies</h2>
+            <div class="Hobbies">
+                <picture>
+                    <img src="./Imagenes/controller.png" alt="Juegos">
+                    <figcaption>Videojuegos</figcaption>
+                </picture>
+                <picture>
+                    <img src="./Imagenes/cook-male.png" alt="Juegos">
+                    <figcaption>Cocinar</figcaption>
+                </picture>
+                <picture>
+                    <img src="./Imagenes/developer.png" alt="Juegos">
+                    <figcaption>Programar</figcaption>
+                </picture>
+                <picture>
+                    <img src="./Imagenes/football2.png" alt="Juegos">
+                    <figcaption>Futbol</figcaption>
+                </picture>
 
-                </li>
-                <li>
-                    <h2>WebMaster</h2>
-                    <p>GYS Computer</p>
-                    <p>Inicio 15/05/2021 - Hasta 02/02/2022/</p>
-                </li>
-                <li>
-                    <h2>Director Ecommerce</h2>
-                    <p>GYS Computer</p>
-                    <p>Inicio 01/09/2018 - Hasta 15/11/2019/</p>
-                </li>
-            </ul>
+            </div>
         </div>
-    </section>
-    <article>
-        <div>
-            <h2>Habilidades técnicas</h2>
-            <table class="Rate">
-                <tr>
-                    <th>HTML</th>
-                    <th>CSS</th>
-                    <th>JavaScrit</th>
-                    <th>React</th>
-                    <th>Angular</th>
-                </tr>
-                <tr>
-                    <td>Rate 5/5</td>
-                    <td>Rate 4/5</td>
-                    <td>Rate 4/5</td>
-                    <td>Rate 5/5</td>
-                    <td>Rate 4/5</td>
-                </tr>
-            </table>
-        </div>
-    </article>
-    <article>
-        <div>
-
-        </div>
-    </article>
-
-    <article>
-        <div>
-            <h2>Intereses</h2>
-            <table>
-                <tr>
-                    <th>Desarrollo web</th>
-                    <th>Desarrollo Movil</th>
-                </tr>
-                <tr>
-                    <td>Desarrollo Front end</td>
-                    <td>Desarrollo de Juegos</td>
-                </tr>
-                <tr>
-                    <td>Desarrollo con React</td>
-                    <td>Desarrollo de apps con ia</td>
-                </tr>
-            </table>
-        </div>
-    </article>
-    <footer>
-        <p>Ingresa tu correo</p>
-        <input type="Email">
-        <p>¿Como podemos ayudarte?</p>
-        <textarea name="Como podemos ayudarte" id="cajon" cols="30" rows="10"></textarea>
-        <button>Enviar</button>
-    </footer>
-
+        <div class="Derecho">
+            <h1>John <span class="apellido">Ramirez</span></h1>
+            <h2 id="titulo">Full Stack Developer</h2>
+            <p>
+                Web máster dedicado y bien informado con amplia
+experiencia y conocimientos en el mantenimiento de sitios
+web, diseño y gestión de contenidos. Adepto a resolver
+cualquier problema relacionado con la tecnología informática.
+Enfocado en el desarrollo Web con altas expectativas de
+crecimiento personal y amante de los retos de programación.    
+            </p>
+            <section>
+                <h3 class="Submenu">Formación académica</h3>
+                <div class="Estudios">
+                    <ul>
+                        <li><p class="fecha">Noviembre 2022 - Junio 2023</p>
+                            <p>ADA SCHOOL</p> 
+                            <p>Full Stack Developer</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="Estudios">
+                    <ul>
+                        <li><p class="fecha">Semtiembre 1999 - Julio 2005</p>
+                            <p>CENTRO EDUCATIVO AUTONOMO</p> 
+                            <p>Bachiller tecnico industrial</p>
+                        </li>
+                    </ul>
+                </div>
+                <h3 class="Submenu">Otra Formación</h3>
+                <div class="Estudios">
+                    <ul>
+                        <li><p class="fecha">Octubre 2022 - Enero 2023</p>
+                            <p>GOOGLE ACTIVE</p> 
+                            <p>Curso de Introducción al Desarrollo Web: HTML y CSS</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="Estudios">
+                    <ul>
+                        <li><p class="fecha">Noviembre 2022 - Enero 2023</p>
+                            <p>UDEMY</p> 
+                            <p>Programación web front y backend</p>
+                        </li>
+                    </ul>
+                    <h4></h4>
+                    <h5></h5>
+                    <p></p>
+                </div>
+            </section>
+            <section>
+                <h3 class="Submenu">experiencia Laboral</h3>
+                <div class="Estudios">
+                    <ul>
+                        <li><p class="fecha">Febrero 2022 - Actualmente</p>
+                            <p>TECNOPLAZA COLOMBIA SAS</p>
+                            <p class="puesto">Web Máster</p> 
+                            <p>Tareas realizadas: Administración y diseño del
+                                contenido de la página y Marketplace,
+                                administrar la seguridad de la web, realizar
+                                backup y actualizaciones, gestión de
+                                contenidosen base a tendencias. Alimentación
+                                de inventarios en base de datos.</p>
+                        </li>
+                        <hr>
+                    </ul>
+                </div>
+                <div class="Estudios">
+                    <ul>
+                        <li><p class="fecha">Marzo 2021 - Febrero 2022</p>
+                            <p>GYS COMPUTER</p>
+                            <p class="puesto">Web Máster</p>
+                            <p>Tareas realizadas: Tareas realizadas:
+                                Administración y diseño del contenido de la
+                                página y Marketplace, administrar la
+                                seguridad de la web, realizar backup y
+                                actualizaciones, gestión de contenidos base a
+                                tendencias. Alimentación de inventarios en
+                                base de datos.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="Estudios">
+                    <ul>
+                        <li><p class="fecha">Septiembre 2018 - Junio 2020</p>
+                            <p>FREELANCE - MEGACOMPUTER</p>
+                            <p class="puesto">Diseñador Web</p>
+                            <p>Tareas realizadas: Creación de página web
+                                optimizada para WordPress, instalación de
+                                plugin y seguridad de la página, creación y
+                                actualización de contenido, community
+                                manager, gestor de contenido</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div> 
+    </div>
 </body>
 </html>
